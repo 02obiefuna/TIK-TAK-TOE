@@ -42,7 +42,7 @@ function checker(first, second, third) {
     }
 
     function checkDraw() {
-        for (let button of buttons) {
+        for (let button of button) {
             if (button.textContent = ""){
                 return
             }
